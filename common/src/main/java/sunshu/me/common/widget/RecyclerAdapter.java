@@ -19,7 +19,7 @@ import sunshu.me.common.R;
 /**
  * author：sunshu
  * time：2019/2/24:22:40
- * desc：
+ * desc：通用adapter
  */
 public abstract class RecyclerAdapter<Data>
         extends RecyclerView.Adapter<RecyclerAdapter.ViewHolder<Data>>

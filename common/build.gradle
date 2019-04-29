@@ -47,6 +47,16 @@ dependencies {
     api "com.jakewharton:butterknife:$rootProject.ext.butterknifeVersion"
     annotationProcessor "com.jakewharton:butterknife-compiler:$rootProject.ext.butterknifeVersion"
 
+    // gson
+    implementation "com.google.code.gson:gson:$rootProject.ext.gsonVersion"
+    // network
+    implementation "com.squareup.okhttp3:okhttp:$rootProject.ext.okhttpVersion"
+    implementation "com.squareup.retrofit2:retrofit:$rootProject.ext.retrofitVersion"
+
+    // rx
+    implementation "io.reactivex.rxjava2:rxandroid:$rootProject.ext.rxandroidVersion"
+    implementation "io.reactivex.rxjava2:rxjava:$rootProject.ext.rxjavaVersion"
+
     testImplementation 'junit:junit:4.12'
 
 //    api project(':lang')
